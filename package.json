@@ -1,6 +1,6 @@
 {
   "name": "express-swaggerize-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express middleware to display a swagger-ui 3 page",
   "main": "index.js",
   "files": [
