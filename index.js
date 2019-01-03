@@ -8,6 +8,7 @@ const fs = require('fs');
 
 module.exports = function swaggerUi(options) {
 
+    options = options || {};
     var router = new express.Router();
 
     router.get('/', function (req, res) {
