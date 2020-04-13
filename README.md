@@ -14,7 +14,7 @@ npm install --save koa-swaggerize-ui
 #### Usage
 
 ```
-const Koa   = require('koa');
+const Koa       = require('koa');
 const app       = new Koa();
 const swaggerUi = require('koa-swaggerize-ui');
 
