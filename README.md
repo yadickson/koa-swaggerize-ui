@@ -36,7 +36,7 @@ app.listen(3000);
 
 #### Generate swagger doc.json
 
-[koa-swagger-generator](https://github.com/arizorin/koa-swagger-generator)
+[koa-swagger-generator-api](https://github.com/yadickson/koa-swagger-generator-api)
 
 
 ## License
