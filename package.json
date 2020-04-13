@@ -1,7 +1,7 @@
 {
-  "name": "express-swaggerize-ui",
-  "version": "1.1.0",
-  "description": "Express middleware to display a swagger-ui 3 page",
+  "name": "koa-swaggerize-ui",
+  "version": "1.0.0",
+  "description": "Koa middleware to display a swagger-ui 3 page",
   "main": "index.js",
   "files": [
     "index.js",
@@ -12,23 +12,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pgroot/express-swaggerize-ui.git"
+    "url": "https://github.com/yadickson/koa-swaggerize-ui.git"
   },
   "keywords": [
     "swagger-ui",
     "swaggerize",
-    "express",
+    "koa",
     "middleware",
     "swagger-ui-3"
   ],
-  "author": "pgroot",
+  "author": "yadickson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pgroot/express-swaggerize-ui/issues"
+    "url": "https://github.com/yadickson/koa-swaggerize-ui/issues"
   },
-  "homepage": "https://github.com/pgroot/express-swaggerize-ui",
+  "homepage": "https://github.com/yadickson/koa-swaggerize-ui",
   "dependencies": {
-    "express": "^4.13.3"
+    "koa": "^2.11.0",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0"
   },
   "devDependencies": {}
 }

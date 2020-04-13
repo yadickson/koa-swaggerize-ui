@@ -4,17 +4,17 @@
   <head>
     <meta charset="UTF-8" />
     <title>Swagger UI</title>
-    <link rel="stylesheet" type="text/css" href="{{ROUTE}}/swagger-ui.css" />
+    <link rel="stylesheet" type="text/css" href="/api-docs/swagger-ui.css" />
     <link
       rel="icon"
       type="image/png"
-      href="{{ROUTE}}/favicon-32x32.png"
+      href="/api-docs/favicon-32x32.png"
       sizes="32x32"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ROUTE}}/favicon-16x16.png"
+      href="/api-docs/favicon-16x16.png"
       sizes="16x16"
     />
     <style>
@@ -40,13 +40,13 @@
   <body>
     <div id="swagger-ui"></div>
 
-    <script src="{{ROUTE}}/swagger-ui-bundle.js"></script>
-    <script src="{{ROUTE}}/swagger-ui-standalone-preset.js"></script>
+    <script src="/api-docs/swagger-ui-bundle.js"></script>
+    <script src="/api-docs/swagger-ui-standalone-preset.js"></script>
     <script>
       window.onload = function() {
         // Begin Swagger UI call region
         const ui = SwaggerUIBundle({
-          url: "{{DOCS}}",
+          url: "/api-docs.json",
           dom_id: "#swagger-ui",
           deepLinking: true,
           presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
